@@ -1,7 +1,7 @@
 # midterm_training_llm
 ## midrerm project for AI class.
 ## Model
-I use GPT2 model architecture.
+GPT2 model architecture.
 ## Training Method
 pretraining from scratch
 ## Dataset   
@@ -10,10 +10,17 @@ pretraining from scratch
 1. python data/openwebtext/prerare.py
 2. python train.py --compile=False
 3. After training on 1 A100 for 24 hours. We get a checkpoint in out directory
+The checkpoin Link
+
+通过百度网盘分享的文件：ckpt.pt
+链接:https://pan.baidu.com/s/134GOZwq8sK7CMVbY_I2csw?pwd=k93a 
+提取码:k93a
+复制这段内容打开「百度网盘APP 即可获取」
 
 ![image](https://github.com/user-attachments/assets/e6d606cf-c204-4522-89e0-a6a4f4872cc3)
 ## Evaluation
-1. python sample.py     --out_dir=out     --start="I see a Star"     --num_samples=1 --max_new_tokens=30
+1. move the checkpoint into out directory
+2. python sample.py     --out_dir=out     --start="I see a Star"     --num_samples=1 --max_new_tokens=30
 
 --start the input sentence
 
