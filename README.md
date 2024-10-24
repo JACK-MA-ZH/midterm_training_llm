@@ -1,5 +1,5 @@
 # midterm_training_llm
-midrerm project for AI class.
+midrerm project for AI class.\n
 Model-GPT2
 Training Method-pretraining from scratch
 Dataset
