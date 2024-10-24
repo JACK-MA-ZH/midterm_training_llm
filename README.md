@@ -7,7 +7,7 @@ pretraining from scratch
 ## Dataset   
 [openWebtxt](https://openwebtext2.readthedocs.io/en/latest/) 
 ## Quickstart
-1. python prerare.py
+1. python data/openwebtext/prerare.py
 2. python train.py --compile=False
 3. After training on 1 A100 for 24 hours. We get a checkpoint in out directory
 
