@@ -1,5 +1,5 @@
 # midterm_training_llm
-## midrerm project for AI class.
+## midterm project for AI class.
 ## Model
 GPT2 model architecture.
 ## Training Method
@@ -11,7 +11,7 @@ pretraining from scratch
 2. python train.py --compile=False
 3. After training on 1 A100 for 24 hours. We get a checkpoint in out directory
    
-The checkpoin Link
+The checkpoint Link
 
 通过百度网盘分享的文件：ckpt.pt
 链接:https://pan.baidu.com/s/134GOZwq8sK7CMVbY_I2csw?pwd=k93a 
