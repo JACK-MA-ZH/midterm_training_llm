@@ -10,6 +10,7 @@ pretraining from scratch
 1. python data/openwebtext/prerare.py
 2. python train.py --compile=False
 3. After training on 1 A100 for 24 hours. We get a checkpoint in out directory
+4. 
 The checkpoin Link
 
 通过百度网盘分享的文件：ckpt.pt
